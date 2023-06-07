@@ -1,0 +1,164 @@
+34 12 25
+A 52 Identificador 
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+B 10 Numero
+0 1 2 3 4 5 6 7 8 9
+C 2 Operador1
+- + 
+D 1 Operador2
+*
+E 1 ) 
+)
+F 1 (
+( 
+G 1 =
+=
+H 1 ,
+,
+I 1 ;
+;
+J 1 }
+}
+K 1 {
+{
+L 1 Comentario
+/
+A	B	C	D	E	F	G	H	I	J	K	L
+4	1	2	3	3	3	3	3	3	3	3	5
+7	6	7	7	7	7	7	7	7	7	7	7
+8	8	8	8	8	8	8	8	8	8	8	8
+8	8	8	8	8	8	8	8	8	8	8	8
+10	9	9	9	9	9	9	9	9	9	9	9
+11	11	11	11	11	11	11	11	11	11	11	12
+7	6	7	7	7	7	7	7	7	7	7	7
+7	7	7	7	7	7	7	7	7	7	7	7
+8	8	8	8	8	8	8	8	8	8	8	8
+9	9	9	9	9	9	9	9	9	9	9	9
+13	9	9	9	9	9	9	9	9	9	9	9
+11	11	11	11	11	11	11	11	11	11	11	11
+14	14	14	14	14	14	14	14	14	14	14	11
+15	9	9	9	9	9	9	9	9	9	9	9
+14	14	14	14	14	14	14	14	14	14	14	16
+17	9	9	9	9	9	9	9	9	9	9	9
+11	11	11	11	11	11	11	11	11	11	11	18
+19	9	9	9	9	9	9	9	9	9	9	9
+11	11	11	11	11	11	11	11	11	11	11	11
+20	9	9	9	9	9	9	9	9	9	9	9
+21	9	9	9	9	9	9	9	9	9	9	9
+22	9	9	9	9	9	9	9	9	9	9	9
+23	9	9	9	9	9	9	9	9	9	9	9
+24	9	9	9	9	9	9	9	9	9	9	9
+25	9	9	9	9	9	9	9	9	9	9	9
+26	9	9	9	9	9	9	9	9	9	9	9
+27	9	9	9	9	9	9	9	9	9	9	9
+28	9	9	9	9	9	9	9	9	9	9	9
+29	9	9	9	9	9	9	9	9	9	9	9
+30	9	9	9	9	9	9	9	9	9	9	9
+31	9	9	9	9	9	9	9	9	9	9	9
+32	9	9	9	9	9	9	9	9	9	9	9
+33	9	9	9	9	9	9	9	9	9	9	9
+9	9	9	9	9	9	9	9	9	9	9	9
+18 4 10 13 15 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 1 2 3 6
+102
+//EsteProgramaEsCorrecto//
+iniciar
+inideclaraciones
+int
+sum
+;
+int
+swm
+;
+int
+res
+;
+findeclaraciones
+iniasignaciones
+swm
+=
+5
+;
+sum
+=
+5
+;
+res
+=
+0
+;
+finasignaciones
+inideffunciones
+int
+fsm
+(
+int
+abc
+,
+int
+abd
+)
+{
+return
+ABC
++
+ABD
+;
+}
+int
+frs
+(
+int
+abc
+,
+int
+abd
+)
+{
+return
+ABC
+-
+ABD
+;
+}
+findeffunciones
+inimain
+iniexpresiones
+res
+=
+5
++
+10
+*
+2
+;
+res
+=
+5
++
+15
+*
+3
+;
+finexpresiones
+inifunciones
+res
+=
+fsm
+(
+sum
+,
+swm
+)
+;
+res
+=
+frs
+(
+sum
+,
+swm
+)
+;
+finfunciones
+finmain
+terminar
